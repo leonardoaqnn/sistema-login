@@ -34,7 +34,7 @@ Este projeto é um sistema de login simples utilizando **HTML, CSS e JavaScript*
    cd sistema-login
    ```
 
-3. **Abra o arquivo `index.html` no navegador**
+3. **Abra o arquivo `login.html` no navegador**
 
 ## 🔧 Configuração do Login
 
