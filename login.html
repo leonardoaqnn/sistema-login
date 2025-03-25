@@ -9,11 +9,13 @@
 <body>
     <div class="login">
         <h1>Login</h1>
-        <input type="text" placeholder="Insira seu nome">
+        <input type="text" id="username" placeholder="Insira seu nome">
         <br><br>
-        <input type="password" placeholder="Insira a senha">
+        <input type="password" id="password" placeholder="Insira a senha">
         <br><br>
-        <button>Enviar</button>
+        <button onclick="login()">Enviar</button>
+        <p id ="error-message"style = "color: red; display: none;">Usuário ou senha incorretos!</p>
     </div>
+    <script src="login.js"></script>
 </body>
 </html>
